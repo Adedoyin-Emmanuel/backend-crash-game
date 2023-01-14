@@ -7,9 +7,9 @@
     <?php require_once("includes/autoload.php")?>
     <title>Login To Crash Game</title>
 </head>
-<body class="container-fluid p-3">
-<form class="d-flex justify-content-between flex-column w-100">
-    <h3 class="text-center text-capitalize">Login To start playing crash game</h3>
+<body class="container-fluid p-3"> 
+<form class="d-flex justify-content-between flex-column  width-toggle-3 m-auto">
+    <h3 class="text-center text-capitalize fs-3 my-3">Login To start playing!</h3>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Username</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
