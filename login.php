@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php require_once("includes/autoload.php")?>
-    <title>Login To Crash Game</title>
+    <title>SignUp To Crash Game</title>
 </head>
 <body class="container-fluid p-3"> 
 <form class="d-flex justify-content-between flex-column  width-toggle-3 m-auto">
-    <h3 class="text-center text-capitalize fs-3 my-3">Login To start playing!</h3>
+    <h3 class="text-center text-capitalize fs-3 my-3">Login to start playing</h3>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Username</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -18,11 +18,10 @@
     <label for="exampleInputPassword1" class="form-label">Password</label>
     <input type="password" class="form-control" id="exampleInputPassword1">
   </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+
+    <button type="submit" class="btn btn-primary text-capitalize my-3">Login</button>
+
+  <p class="text-capitalize">don't have an account? <a href="signup.php">signup</a>
 </form>
 </body>
 </html>

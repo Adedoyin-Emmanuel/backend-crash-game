@@ -23,7 +23,7 @@
 
 
 
-  <p class="text-capitalize">already have a account? <a href="login.php">login</a>
+  <p class="text-capitalize">already have an account? <a href="login.php">login</a>
 </form>
 </body>
 </html>
