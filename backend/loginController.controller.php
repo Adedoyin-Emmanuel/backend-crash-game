@@ -9,6 +9,12 @@ final class LoginController extends DatabaseConnector {
     
     public function __construct()
     {
+        parent::__construct();
+    }
+
+
+    public function check_credentials($username, $password)
+    {
         
     }
 }
