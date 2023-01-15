@@ -19,9 +19,9 @@ class DatabaseConnector
          $this->userName = "root";
     
         try {
-                $this->conn = new mysqli()
-        } catch (\Throwable $th) {
-            //throw $th;
+                $this->conn= new mysqli($this->serverName,$this->userName,$this->databasePassword,$this->databaseName);
+        } catch (Exception $e) {
+           die("An error occured ".$e->getMessage());
         }
         
         
