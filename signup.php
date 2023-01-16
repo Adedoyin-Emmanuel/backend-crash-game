@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php require_once "includes/autoload.php"?>
-    <script src="includes/validateSignup.js"></script>
+    
+    <script src="includes/validateSignup.js"> </script>
+    <script src="component/jquery.js"> </script>
+    
     <title>SignUp To Crash Game</title>
 </head>
 <body class="container-fluid p-3"> 
-<form class="d-flex justify-content-between flex-column  width-toggle-3 m-auto">
+<form class="d-flex justify-content-between flex-column  width-toggle-3 m-auto" id="signUpForm">
     <h3 class="text-center text-capitalize fs-3 my-3">Signup to crash game</h3>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Username</label>
